@@ -4,13 +4,12 @@
 
 scores= [10,20,30,40,50]
 
-def total(x):
-    return sum(x)
+def total(scores):
+    total_score= 0
+    for i in range(len(scores)):
+        total_score = scores[i] + total_score
+    return total_score
 
-print(total(scores))
 
 
-def avg(y):
-    return sum(y)/len(y)
-
-print(avg(scores))
+print(total([10,20,30,40,50]))
