@@ -1,7 +1,7 @@
 # 더블 함수 만들기
 
 def double(n):  # n = parameter
-    return n * 2  + 1
+    return n * 2
 
 
 def test_double():
